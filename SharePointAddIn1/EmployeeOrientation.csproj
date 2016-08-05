@@ -43,6 +43,8 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Site Columns\Division\Elements.xml" />
+    <Content Include="Site Columns\OrientationStage\Elements.xml" />
     <None Include="Lists\NewEmployeesInSeattle\NewEmployeeOrientationInstance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{157ce79c-f21a-4d94-8375-338ad38d0046}</SharePointProjectItemId>
     </None>
@@ -58,6 +60,12 @@
     <Content Include="Lists\NewEmployeesInSeattle\Schema.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Site Columns\Division\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4422f1cf-b614-4d40-9b50-d0ed734ba063}</SharePointProjectItemId>
+    </None>
+    <None Include="Site Columns\OrientationStage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{181fd8e5-4b83-4368-8095-3cdc3c786f0f}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
